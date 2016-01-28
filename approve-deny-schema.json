@@ -1,0 +1,26 @@
+{
+  "messageSchema": {
+    "type": "object",
+    "title": "Comment",
+    "required": [
+      "email"
+    ],
+    "properties": {
+      "email": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^\\S+@\\S+$",
+          "description": "Email will be used for evil."
+        }
+      },
+      "from": {
+        "default": "c6eefa62-260c-418e-9ba2-76846cebe358",
+        "type": "string"
+      }
+    }
+  },
+  "messageFormSchema": [
+    "email"
+  ]
+}
