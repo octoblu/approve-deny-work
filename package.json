@@ -1,0 +1,29 @@
+{
+  "name": "approve-deny-work",
+  "version": "1.0.0",
+  "description": "Generates an approve/deny device",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/approve-deny-work.git"
+  },
+  "keywords": [
+    "IoT",
+    "Meshblu",
+    "Octoblu"
+  ],
+  "author": "redaphid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/approve-deny-work/issues"
+  },
+  "homepage": "https://github.com/octoblu/approve-deny-work#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "lodash": "^4.0.1",
+    "meshblu-http": "^5.0.2"
+  }
+}
