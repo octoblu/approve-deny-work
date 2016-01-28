@@ -15,7 +15,7 @@
         }
       },
       "from": {
-        "default": "c6eefa62-260c-418e-9ba2-76846cebe358",
+        "default": "{{triggerId}}",
         "type": "string"
       }
     }

@@ -4,7 +4,8 @@
   "description": "Generates an approve/deny device",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "coffee ./main.coffee"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "dependencies": {
     "coffee-script": "^1.10.0",
     "lodash": "^4.0.1",
-    "meshblu-http": "^5.0.2"
+    "meshblu-http": "^5.0.2",
+    "request": "^2.69.0"
   }
 }
